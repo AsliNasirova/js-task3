@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let eded = parseFloat(prompt("Ədəd"));
+        let i = 0;
+        let say = 0;
+        while (i < eded) {
+            i++;
+            if (eded % i === 0) {
+                say++;
+            }
+        }
+        if (say > 2) {
+            alert("Verilmiş say Mürəkkəb ədəddir.");
+        }
+        else {
+            alert("Verilmiş say Sadə ədəddir.");
+        }
+    </script>
+</body>
+</html>
